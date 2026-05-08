@@ -1,0 +1,46 @@
+# 数据文件夹（原始数据集太大，且通过脚本自动下载，不纳入版本控制）
+data/
+
+# 虚拟环境（无论是 venv 还是 conda 环境，都不要提交）
+venv/
+env/
+.env/
+.venv/
+myenv/          # 如果你用 conda 创建名为 myenv 的环境（但通常环境不在项目目录内，以防万一）
+
+# Python 编译缓存
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Jupyter Notebook 相关
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+jupyter_notebook_config.py
+
+# 隐藏文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE 配置（根据个人习惯，可选择性保留）
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日志文件
+*.log
+
+# 单元测试/覆盖率
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 其他临时文件
+*.tmp
+*.bak
+*.orig

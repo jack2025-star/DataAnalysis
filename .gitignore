@@ -1,0 +1,21 @@
+# ============== Data ==============
+# 忽略数据文件夹（大文件，不追踪）
+data/
+
+# ============== Jupyter Notebook ==============
+# 忽略 Jupyter 临时工作区文件
+.ipynb_checkpoints/
+
+# ============== Python ==============
+# 忽略 Python 编译文件和虚拟环境
+__pycache__/
+*.py[cod]
+*$py.class
+env/
+venv/
+
+# ============== OS ==============
+# 忽略系统生成的隐藏文件
+.DS_Store
+Thumbs.db
+
