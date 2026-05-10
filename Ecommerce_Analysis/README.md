@@ -2,8 +2,6 @@
 
 本项目基于巴西知名电商平台 Olist 的数据集
 
-
-
 ## 数据说明
 
 本项目使用 [Olist Brazilian E-Commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) 数据集。
